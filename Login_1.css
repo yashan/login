@@ -1,0 +1,48 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+}
+.header{
+	border-bottom: solid black 2px;
+	text-align: center;
+	padding: 8px 0px;
+	background-color: #fcf5eb;
+	width: 100%;
+	cursor: pointer;
+
+}
+.header:hover{
+	background-color: #fbf1e3;
+}
+.header a {
+	text-decoration: none;
+	color: black;
+	width: 100%;
+}
+h2{
+	margin-bottom: 0px;
+}
+input[type="text"], input[type="password"], input[type="email"]{
+	border: none;
+	border-bottom: solid black 1px;
+	padding: 10px 10px;
+	width: 300px;
+	outline: none;
+	font-family: 'Oswald', sans-serif;
+}
+input[type="submit"]{
+	width: 320px;
+	padding: 10px;
+	margin-top: 15px;
+	color: #fff;
+	border-radius: 3px;
+	border:0px;
+	cursor: pointer;
+	background-color: #0098cb;
+	font-family: 'Oswald', sans-serif;
+}
+input[type="submit"]:hover{
+	background-color: #00b8eb;
+}
